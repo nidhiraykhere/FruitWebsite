@@ -1,0 +1,797 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav1{
+    height:26px;
+    width: 100%;
+    background-color:#F4F4F4;
+    position:relative;
+}
+
+#left1{
+    width:140px;
+    position: absolute;
+    top: 2px;
+    left:100px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    font-size:20px;
+}
+
+#left1 h6{
+    font-weight: 300;
+}
+
+
+#right1{
+    width:350px;
+    position: absolute;
+    left: 960px;
+    top: 3px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    font-size:20px;
+}
+
+#right1 h6{
+    font-weight: 300;
+}
+
+#nav2{
+    height: 70px;
+    position: relative;
+}
+
+#left2{
+    position: absolute;
+    font-size:30px;
+    left: 20px;
+    top: 16px;
+    color:#2DB457;
+}
+
+#mid2{
+    width:60px;
+    position: absolute;
+    left: 720px;
+    top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+#mid2 h6{
+    color: #2DB457;
+    font-weight: 400;
+}
+
+#right2{
+    width: 150px;
+    position: absolute;
+    left: 1200px;
+    top: 28px;
+    display: flex;
+    justify-content: space-between;
+    font-size:18px;
+}
+
+#nav3{
+    height: 33px;
+    background-color:#2DB457;
+    position: relative;
+    align-items: center;
+}
+
+#left3{
+    width: 650px;
+    position: absolute;
+    top: 8px;
+    left: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left3 h6{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
+
+#right3{
+    position:absolute;
+    top: 7px;
+    left: 1150px;
+}
+
+#right3 button{ 
+    border: none;
+    color:#2DB457;
+    background-color:white;
+    text-decoration: none;
+    padding: 2.2px 10px;
+    border-radius: 4px;
+}
+
+#part1{
+    height: 55%;
+    width: 100%;
+    background-color: #F4F4F4;
+    position: relative;
+}
+
+#part1 h5{
+    width: 45%;
+    font-size: 60px;
+    position: absolute;
+    top:22%;
+    left: 5%;
+}
+
+#part1 button{
+    position: absolute;
+    top: 70%;
+    left:5%;
+    padding: 6px 19px;
+    border-radius: 5px;
+    border: none;
+    background-color:#0f5f28;
+    font-weight: 500;
+    color: white;
+}
+
+#part1 img{
+    height: 100%;
+    width: 32%;
+    object-fit:cover;
+    position: absolute;
+    left:50%;
+}
+
+#text1{
+    height:92px;
+    display: flex;
+    position: relative;
+    left: 25px;
+}
+
+.div{
+    width:25%;
+    position:relative;
+    left:35px;
+}
+
+.div i{
+    position:absolute;
+    font-size:45px;
+    top:35px;
+}
+
+.div p{
+    position: absolute;
+    left:55px;
+    top: 56px;
+    font-weight: 600;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.div h5{
+    font-size: 16px;
+    position: absolute;
+    left:55px;
+    top:35px;
+}
+
+#page2{
+    height:106vh;
+    width:100%;
+    display: flex;
+    background-color:#F4F4F4;
+}
+
+#div1{
+    height: 90%;
+    width: 35%;
+    position: relative;
+}
+
+#video1{
+    position: absolute;
+    height: 300px;
+    width: 370px;
+    left:150px;
+    top: 80px;
+}
+
+#video1 img{
+    height:180px;
+    width:350px;
+    position: absolute;
+    left:10px;
+    top:320px;
+}
+
+#div2{
+    height:550px;
+    width:50%;
+    position: relative;
+    top:30px;
+    left:150px;
+    border-radius:2%;
+    background-color:white;
+}
+
+#div2 h3{
+    position: absolute;
+    top:60px;
+    left:80px;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#div21{
+    width:600px;
+    position: absolute;
+    top: 140px;
+    left: 40px;
+    font-size:17px;
+    font-weight:500;
+    text-align: left;
+    line-height: 23px;
+}
+
+#div22{
+    width: 600px;
+    position: absolute;
+    top: 230px;
+    left: 40px;
+    font-size:17px;
+    font-weight:500;
+    text-align:left;
+    line-height: 23px;
+}
+
+#div23{
+    width: 600px;
+    position: absolute;
+    top: 350px;
+    left: 40px;
+    font-size:17px;
+    font-weight:500;
+    text-align:left;
+    line-height: 23px;
+}
+
+#div24{
+    width: 600px;
+    position: absolute;
+    top: 510px;
+    left:45px;
+    font-size:17px;
+    font-weight:500;
+    text-align:left;
+    line-height: 23px;
+}
+
+#txt{
+    position:absolute;
+    height:60px;
+    width:1100px;
+    left:130px;
+    top:1180px;
+}
+
+#txt p{
+    font-size:17px;
+    font-weight:300;
+}
+
+#txt h2{
+    font-weight:600;
+    padding:2px;
+}
+
+#page3{
+    position: relative;
+    width: 100%;
+    height: 140vh;
+}
+
+#page3 h3{
+    position: absolute;
+    left:590px;
+    top:25px;
+    font-size:30px;
+}
+
+#cards1{
+    position: relative;
+    left:120px;
+    top: 90px;
+    width: 84%;
+    height:430px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cards2{
+    position: relative;
+    left:120px;
+    top:100px;
+    width: 84%;
+    height:430px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    position: relative;
+    height:210px;
+    width:250px;
+}
+
+.card img{
+    position: absolute;
+    height:100%;
+    width:100%;
+}
+
+.card div{
+    position: absolute;
+    height:90%;
+    width: 100%;
+    top:95%;
+}
+
+.card div h4{
+    position: absolute;
+    font-size: 20px;
+    left: 24px;
+    top:12px;
+    font-weight:600;
+}
+
+.card div p{
+    width:210px;
+    position: absolute;
+    top:44px;
+    text-align: left;
+    left:20px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.card div h6{
+    position: absolute;
+    top:88px;
+    left: 20px;
+    font-size:15px;
+    font-weight: 500
+}
+
+.card div h5{
+    position: absolute;
+    top: 112px;
+    left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card div h2{
+    position: absolute;
+    top: 135px;
+    left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2DB457;
+}
+
+.card div button{
+    position: absolute;
+    top: 120px;
+    left:110px;
+    padding: 8px 10px;
+    color: white;
+    background-color: #0f5f28;
+    border:none;
+}
+
+#strip{
+    position: relative;
+    height:120px;
+    width: 85%;
+    top: 50px;
+    left:60px;
+    background-color:#d8d8d881;
+    overflow: hidden;
+}
+
+#strip h3{
+    position: absolute;
+    padding: 26px 30px;
+    font-size: 28px;
+    font-weight:500;
+}
+
+#strip h2{
+    position: absolute;
+    top:75px;
+    left: 40px;
+    font-size: 16px;
+    font-weight:500;
+}
+
+#strip i{
+    position: absolute;
+    top: 75px;
+    left:148px;
+    font-size: 18px;
+    font-weight:500;
+    color: #2DB457;
+}
+
+#strip img{
+    position: absolute;
+    top: 12px;
+    left: 1070px;
+    height:100%;
+    width:10%;
+    rotate:320deg;
+}
+
+#page4{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+#page4 h1{
+    position: absolute;
+    left:500px;
+    top:120px;
+}
+
+#photo{
+    position: absolute;
+    top:190px;
+    left:80px;
+    height:240px;
+    width:87%;
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+#photo img{
+    height:200px;
+    width:190px;
+    padding: 10px;
+    border-radius:25px;   
+}
+.photo1{
+    position: relative;
+}
+.photo1 h2{
+    position:absolute;
+    bottom: 0px;
+    top: 195px;
+    left:60px;
+    font-size:20px;
+    font-weight:600
+}
+
+#photo2{
+    position:relative;
+    /* background-color:black; */
+    height: 240px;
+    width:400px;
+    top:450px;
+    left:80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#photo2 img{
+    height: 200px;
+    width: 190px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+#img img{
+    position:relative;
+    top:100px;
+    left:120px;
+    height:200px;
+    width:85%;
+}
+
+#page5{
+    height: 130vh;
+    width: 100%;
+    position: relative;
+}
+#page5 h1{
+    position: absolute;
+    left:580px;
+    top: 150px;
+    font-size:35px;
+    font-weight: 400;
+}
+#cred{
+    height:40vh;
+    width: 95%;
+    position: relative;
+    left:40px;
+    top: 230px;  
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cred1{
+    position:relative;
+    height: 40vh;
+    width: 23%;
+    box-shadow: 0 4px 8px 0 rgba(119, 117, 117, 0.068), 0 6px 20px 0 rgba(116, 114, 114, 0.058);
+}
+
+.cred1 img{
+    position: absolute;
+    top:60px;
+    right: 200px;
+    height: 38%;
+    width: 33%;
+    border-radius: 50%;
+}
+.cred1 h2{
+    position: absolute;
+    width:190px;
+    left:130px;
+    top: 50px;
+    font-weight:600;
+    font-size: 22px;
+}
+.cred1 h5{
+    position: absolute;
+    left: 130px;
+    top:110px;
+    font-size:15px;
+    font-weight: 300;
+}
+.cred1 h3{
+    position:absolute;
+    left: 130px;
+    top: 130px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.cred1 h6{
+    position: absolute;
+    left: 130px;
+    top: 160px;
+    font-size: 20px;
+    color: #1e8f42;
+    font-weight:700;
+}
+
+.cred1 button{
+    position: absolute;
+    left: 145px;
+    top: 205px;
+    padding: 8px 12px;
+    background-color: #15913c;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+#cred2{
+    height:40vh;
+    width: 95%;
+    position: relative;
+    left:40px;
+    top: 250px;  
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#but button{
+    position: absolute;
+    right: 70px;
+    top:800px;
+    padding: 8px 28px;
+    font-size: 12px;
+    font-weight: 500;
+    border: 2px solid #1e8f42;
+    border-radius: 5px;
+    background-color: white;
+    color: #1e8f42;
+}
+#banner{
+    position: relative;
+    top: 40px;
+    left: 100px;
+    height: 230px;
+    width: 1200px;
+    justify-content: space-between;
+    display: flex;
+}
+#banner img{
+    height: 200px;
+    width: 580px;
+}
+#page6{
+    position: relative;
+    height: 180vh;
+    width: 100%;
+}
+#page6 h2{
+    position: absolute;
+    left: 610px;
+    top: 330px;
+    font-size: 30px;
+    font-weight: 600;
+}
+#post{
+    position: relative;
+    top: 180px;
+    left: 200px;
+    height: 480px;
+    width:1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.posts{
+    position:relative;
+    height: 480px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(119, 117, 117, 0.126), 0 6px 20px 0 rgba(116, 114, 114, 0.137);
+}
+.posts img{
+    position: absolute;
+    top: 50px;
+    height:170px;
+    width: 300px;
+}
+.posts div{
+    position: absolute;
+    top:250px;
+    left: 30px;
+}
+.textt h3{
+    font-size: 13px;
+    font-weight:100;
+}
+.textt p{
+    width:200px;
+    padding:15px 0px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+}
+.textt h1{
+    font-size:22px;
+    padding: 6px 0px; 
+    font-weight: 600;
+}
+.textt i{
+    color: #037b29;
+    font-size: 28px;
+}
+#web{
+    position:absolute;
+    bottom: 15px;
+    width: 1180px;
+    left: 110px;
+}
+
+#page7{
+    height: 115vh;
+    width: 100%;
+    position: relative;
+}
+
+.p1{
+    position: relative;
+    top: 120px;
+    left: 65px;
+    height: 200px;
+    width: 90%; 
+    display: flex;
+    justify-content: space-between;
+}
+.p1 img{
+    padding: 12px;
+    border-radius:24px;
+}
+#web2 img{
+    position: absolute;
+    left:100px;
+    top:550px;
+    height:20%;
+    width: 88%;
+}
+
+#page8{
+    height: 100Vh;
+    width:100%;
+    position: relative;
+}
+#page8 h1{
+    position: absolute;
+    left: 500px;
+    top: 20px;
+    font-size: 32px;
+    font-weight:600;
+}
+#customer{
+    position: relative;
+    top: 100px;
+    height: 400px;
+    margin-left:80px;
+    display: flex;
+    /* overflow-x: auto; */
+}
+.customer{
+    position: relative;
+    height: 400px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(119, 117, 117, 0.126), 0 6px 20px 0 rgba(116, 114, 114, 0.137);
+    margin-left: 25px;
+     
+}
+
+/* .customer::-webkit-scrollbar{
+    width: 0;
+} */
+
+.customer img{
+    position: absolute;
+    top: 30px;
+    left:15px;
+    height:80px;
+    width: 90px;
+    border-radius:700px;
+}
+
+.customer h2{
+    position: absolute;
+    top: 55px;
+    left: 115px;
+    font-weight:500;
+    color: #1e8f42;
+    font-size:20px;
+}
+.customer h4{
+    position: absolute;
+    top: 85px;
+    left: 115px;
+    font-weight:500;
+    font-size:14px;
+}
+.customer p{
+    position: absolute;
+    top: 120px;
+    padding:10px 18px;
+   text-align: left;
+   font-size: 17px;
+   font-weight:200;
+}
+
+
+
